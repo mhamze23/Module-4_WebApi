@@ -30,3 +30,6 @@ THEN I can save my initials and score
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
+![04-web-apis-homework-demo](https://user-images.githubusercontent.com/115047281/213612184-52b43820-8ac3-4bc3-a93d-b5f82329be83.gif)
+
+© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
