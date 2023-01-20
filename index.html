@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+       <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav>
+        <section id="navBar">
+            <article class="left">
+                <a class="viewScore" onclick='getScore()' href='#'>
+                    <h4><strong>View Highscore</strong></h4>
+                </a>
+            </article>
+            <div class="right">
+                <h4>Time: <span id='remainingTime'>0</span></h4>
+            </div>
+        </section>
+    </nav>
+
+    <!-- Container -->
+    <main>
+        <section id="container">
+            <article id="mainBody">
+                <h1>Welcome to QuizPaw <img src="./Assets/Logo.png"
+                    alt="Logo"></p>
+                <h2>Coding Edition</h2>
+                </h1>
+                <h3>Once you press the "Start" button, you will be presented with a series of multiple choice questions.</h3>
+                <h3>You have 1 minute to complete the quiz. For each incorrect answer you choose, time will be deducted from the timer!</h3>
+                <h3>Try to beat the highest score!</h3>
+                <button onclick="start()">Start!</button>
+            </article>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
